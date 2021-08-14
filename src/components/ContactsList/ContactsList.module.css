@@ -1,0 +1,26 @@
+.Item {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.Button {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  min-width: 80px;
+  margin-left: 20px;
+  border: 1px solid #868686;
+  border-radius: 5px;
+}
+
+.Button:hover {
+  color: rgb(240, 248, 255);
+  background-color: rgb(0, 0, 255);
+}
