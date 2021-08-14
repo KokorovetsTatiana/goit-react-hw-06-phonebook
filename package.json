@@ -48,7 +48,8 @@
     "mrm": "^3.0.8",
     "mrm-task-lint-staged": "^6.0.6",
     "prettier": "^2.3.2",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "redux-devtools-extension": "^2.13.9"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
